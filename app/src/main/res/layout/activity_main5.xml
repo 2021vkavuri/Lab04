@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="BuTtOn"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:scrollbars="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="The Emu War, also known as the Great Emu War,[1] was a nuisance wildlife management military operation undertaken in Australia over the latter part of 1932 to address public concern over the number of emus said to be running amok in the Campion district of Western Australia. The unsuccessful attempts to curb the population of emus, a large flightless bird indigenous to Australia, employed soldiers armed with Lewis guns—leading the media to adopt the name 'Emu War' when referring to the incident. While a number of the birds were killed, the emu population persisted and continued to cause crop destruction."
+            />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
