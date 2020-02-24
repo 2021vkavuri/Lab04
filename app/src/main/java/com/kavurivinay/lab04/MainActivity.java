@@ -7,13 +7,14 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override
+    //@Override
     int layoutCounter;
-    View[] layouts;
+    int[] layouts;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main1);
-        layouts = [R.layout.activity_main1, R.layout.activity_main2, R.layout.activity_main3, R.layout.acitvity_main4, R.layout.activity_main5, R.layout.activity_main6, R.layout.activity_main7];
+        int[] layout = {R.layout.activity_main1, R.layout.activity_main2, R.layout.activity_main3, R.layout.acitvity_main4, R.layout.activity_main5, R.layout.activity_main6, R.layout.activity_main7};
+        layouts = layout;
         layoutCounter = 1;
     }
 
